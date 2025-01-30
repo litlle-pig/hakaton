@@ -48,6 +48,7 @@ img {
 .first__text p {
   font-size: 18px;
   line-height: 27px;
+  font-weight: 600;
 }
 .btn-info {
   display: flex;
@@ -62,6 +63,7 @@ img {
 }
 .support {
   display: flex;
+  margin-top: 224px;
 }
 .support__span {
   font-weight: 600;
@@ -72,6 +74,7 @@ img {
 }
 .support__text p {
   font-size: 18px;
+  font-weight: 600;
 }
 .support__cart {
   max-width: 400px;
@@ -80,6 +83,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
+  margin-top: 80px;
 }
 .btn-suppport {
   /* display: flex; */
