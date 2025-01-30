@@ -117,3 +117,42 @@
     max-width: 335px;
   }
 }
+
+@media (max-width: 1024px) {
+  .consultation {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .consultation__content,
+  .consultation__image {
+    max-width: 100%;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contacts__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts__grid {
+    grid-template-columns: 1fr;
+  }
+}
