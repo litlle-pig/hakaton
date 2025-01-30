@@ -6,6 +6,7 @@
 }
 body {
   font-family: sans-serif;
+  margin: 0;
 }
 img {
   width: 100%;
@@ -216,4 +217,9 @@ img {
 
 .contact-item a:hover {
   text-decoration: underline;
+}
+.footer {
+  background-color: #333;
+  width: 100%;
+  min-height: 100px;
 }
