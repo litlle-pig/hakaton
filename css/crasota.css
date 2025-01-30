@@ -91,17 +91,17 @@ img {
   gap: 10px;
 }
 .footer {
-  background-color: #333;
+  background-color: #fcfafa;
   margin-top: 60px;
 }
 .footer a {
-  color: azure;
+  color: rgb(0, 0, 0);
 }
 .footer a:hover {
-  color: rgb(44, 167, 167);
+  color: rgb(133, 138, 138);
 }
 .footer p {
-  color: aliceblue;
+  color: rgb(0, 0, 0);
 }
 .footer img {
   max-width: 30px;
@@ -110,7 +110,15 @@ img {
   display: flex;
   padding-top: 100px;
   justify-content: space-between;
+  align-items: center;
 }
 .anchor__links {
   max-width: 400px;
+}
+.cooke {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid 1px #000;
+  margin-top: 20px;
 }
