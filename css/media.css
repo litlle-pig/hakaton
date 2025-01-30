@@ -1,0 +1,119 @@
+@media screen and (max-width: 1400px) {
+  .first__text h1 {
+    font-size: 44px;
+  }
+  .first__text p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .first__text h1 {
+    font-size: 36px;
+  }
+  .wrapper {
+    padding: 0 40px;
+  }
+  .support__block {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 960px) {
+  .hamburger {
+    display: block;
+    z-index: 1;
+  }
+  .navbar {
+    justify-content: space-between;
+  }
+  .support__block {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .nav {
+    position: fixed;
+    width: 300px;
+    background-color: rgba(189, 187, 188);
+    height: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    gap: 50px;
+    right: 0;
+    top: 0;
+    transform: translateX(100%);
+    transition: 0.5s;
+  }
+  .nav-active {
+    transform: translateX(0);
+  }
+
+  .first__info {
+    flex-direction: column;
+  }
+  .first__text h1 {
+    text-align: center;
+    font-size: 42px;
+  }
+
+  .first__text p {
+    text-align: center;
+  }
+  .btn-info {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .navbar {
+    padding: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .nav {
+    width: 250px;
+  }
+
+  .wrapper {
+    padding: 0;
+  }
+  .first__text h1 {
+    text-align: start;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .first__text p {
+    text-align: start;
+  }
+  .btn-info {
+    justify-content: start;
+  }
+  .second__info {
+    margin-top: 64px;
+  }
+  .support__text p {
+    line-height: 28px;
+  }
+  .title-text {
+    text-align: center;
+  }
+
+  .sign-up-for-a-consultation {
+    max-width: 334px;
+    height: 195px;
+  }
+  .sign-up-title {
+    font-size: 20px;
+  }
+  .sign-up-subtext {
+    max-width: 335px;
+  }
+}

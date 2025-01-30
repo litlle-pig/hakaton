@@ -1,0 +1,90 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 88px;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav__link {
+  color: black;
+  transition: 0.1s;
+  font-weight: 500;
+}
+.nav__singIn {
+  padding: 8px 20px;
+  border-radius: 25px;
+  background: none;
+}
+.nav__logo {
+  z-index: 2;
+}
+.nav__sing {
+  display: flex;
+  gap: 10px;
+}
+.nav__singup {
+  padding: 8px 20px;
+  border-radius: 25px;
+  background: none;
+  cursor: pointer;
+}
+.hamburger {
+  display: none;
+}
+
+.nav__link:hover {
+  border-bottom: 1px solid #000;
+}
+.wrapper {
+  align-items: center;
+}
+
+.title-text {
+  font-size: clamp(2rem, 1.5702rem + 1.937vw, 2.5rem);
+  font-weight: 700;
+  max-width: 768px;
+}
+
+.sign-up-for-a-consultation {
+  max-width: 405px;
+  height: 240px;
+}
+
+.sign-up__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-up-title {
+  color: #084216;
+  max-width: 405px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.sign-up-subtext {
+  max-width: 405px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.sign-up-recording {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+}
