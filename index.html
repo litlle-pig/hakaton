@@ -13,14 +13,27 @@
     <div class="navbar">
       <div class="nav__logo"><img src="svg/logo_nav.svg" alt="" /></div>
       <nav class="nav">
-        <a href="#" class="nav__link">Главная страница</a>
-        <a href="#" class="nav__link">Консультироваться</a>
+        <a href="" class="nav__link">Главная страница</a>
+        <a href="consultation.htm" class="nav__link">Консультироваться</a>
         <a href="#" class="nav__link">Контакты нас</a>
         <div class="nav__sing">
           <button class="nav__singIn btn__green">Вход</button>
           <button class="nav__singup btn-hover">Регистрация</button>
         </div>
       </nav>
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <form id="modalForm">
+            <h2 id="modalTitle">Вход</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required />
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
       <button class="hamburger hamburger--collapse" type="button">
         <span class="hamburger-box">
           <span class="hamburger-inner"></span>
@@ -298,7 +311,7 @@
         <div class="first__img-info"><img src="img/wifi-img.jpg" alt="" /></div>
       </div>
     </div>
-    <script src="./js/main.js"></script>
+    <script src="./src/main.js"></script>
     <script src="./js/burger.js"></script>
   </body>
 </html>
