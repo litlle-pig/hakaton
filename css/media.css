@@ -16,6 +16,10 @@
   .support__block {
     grid-template-columns: 1fr 1fr;
   }
+  .service {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media screen and (max-width: 960px) {
   .hamburger {
@@ -70,7 +74,17 @@
   .navbar {
     padding: 0;
   }
-
+  .cart__2 {
+    flex-direction: column;
+  }
+  .service__cart {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cart__text {
+    padding-bottom: 20px;
+    text-align: center;
+  }
   .container {
     display: flex;
     flex-direction: column;
