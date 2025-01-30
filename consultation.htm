@@ -40,7 +40,31 @@
         </span>
       </button>
     </div>
+    <div class="card__bg">
+      <div class="card">
+        <h1 class="card__h1">
+          Онлайн-консультация: Определите нужного специалиста
+        </h1>
+        <form id="consultationForm">
+          <label for="description">Описание проблемы:</label>
+          <textarea
+            id="description"
+            placeholder="Опишите вашу проблему..."
+          ></textarea>
 
+          <label for="imageUpload">Загрузите фото (по желанию):</label>
+          <input type="file" id="imageUpload" accept="image/*" />
+
+          <button class="btn__form" type="submit">Отправить</button>
+        </form>
+
+        <div
+          id="recommendation"
+          class="recommendation"
+          style="display: none"
+        ></div>
+      </div>
+    </div>
     <script src="js/burger.js"></script>
     <script src="js/main.js"></script>
   </body>
