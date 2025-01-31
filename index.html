@@ -16,12 +16,37 @@
         <a href="#" class="nav__link">Главная страница</a>
         <a href="#" class="nav__link">Консультироваться</a>
         <a href="#" class="nav__link">Контакты нас</a>
-        <div class="nav__sing">
-          <button class="nav__singIn btn__green">Вход</button>
-          <button class="nav__singup btn-hover">Регистрация</button>
-        </div>
+        
       </nav>
-     
+      <div class="nav__sing" id="navSing">
+        <button class="nav__singIn btn__green" id="signInButton">Вход</button>
+        <button class="nav__singup btn-hover" id="signupButton">Регистрация</button>
+      </div>
+    
+      <div id="modalSignIn" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeSignIn">&times;</span>
+          <h3>Вход</h3>
+          <p>Введите ваши данные:</p>
+          <input type="text" placeholder="Логин" id="signInEmail"><br><br>
+          <input type="password" placeholder="Пароль" id="signInPassword"><br><br>
+          <button class="btn" id="signInSubmit">Отправить</button>
+        </div>
+      </div>
+    
+      <div id="modalSignUp" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeSignUp">&times;</span>
+          <h3>Регистрация</h3>
+          <p>Введите ваши данные:</p>
+          <input type="email" placeholder="Email" id="signUpEmail"><br><br>
+          <input type="password" placeholder="Пароль" id="signUpPassword"><br><br>
+          <button class="btn" id="signUpSubmit">Зарегистрироваться</button>
+        </div>
+      </div>
+    
+    
+   
       </div>
       <button class="hamburger hamburger--collapse" type="button">
         <span class="hamburger-box">
@@ -284,6 +309,7 @@
       </div>
     </div>
   </footer>
+  <script type="module" src="src/app.js" defer></script>
   <script src="./js/main.js"></script>
   <script src="./js/burger.js"></script>
 </html>
