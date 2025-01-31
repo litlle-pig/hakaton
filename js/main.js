@@ -6,8 +6,12 @@ const anchorLinksContainer = document.querySelector(".anchor__links");
 
 // Проверяем, если контейнер найден
 if (anchorLinksContainer) {
+
   // Перебираем все заголовки и создаем ссылки
   headers.forEach((header) => {
+
+  headers.forEach((header, index) => {
+
     const id =
       header.id || header.textContent.trim().toLowerCase().replace(/\s+/g, "-"); // Генерация ID для заголовка
     if (!header.id) header.id = id; // Если у заголовка нет ID, присваиваем его
@@ -19,6 +23,7 @@ if (anchorLinksContainer) {
 
     // Добавляем ссылку в контейнер
     anchorLinksContainer.appendChild(anchorLink);
+
   });
 }
 document
@@ -55,3 +60,14 @@ document
     // Очистка поля ввода
     descriptionInput.value = "";
   });
+
+
+    // Если это не последняя ссылка, добавляем разделитель
+    if (index < headers.length - 1) {
+      const separator = document.createElement("span");
+      separator.textContent = " | ";
+      anchorLinksContainer.appendChild(separator);
+    }
+  });
+}
+

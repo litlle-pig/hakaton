@@ -128,12 +128,14 @@ html {
   cursor: pointer;
 }
 
+
 .card__bg {
   background-color: #f9f9f9;
   padding: 2rem;
   max-width: 600px;
   margin: auto;
 }
+
 
 form {
   display: flex;
@@ -161,6 +163,7 @@ form button {
 form button:hover {
   background-color: #45a049;
 }
+
 .card {
   background: white;
   padding: 20px;
@@ -205,3 +208,4 @@ input[type="file"] {
   color: #2ca249;
   border-radius: 8px;
 }
+
