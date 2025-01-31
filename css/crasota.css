@@ -115,6 +115,7 @@ img {
 .anchor__links {
   max-width: 400px;
 }
+
 .cooke {
   display: flex;
   justify-content: space-between;
@@ -160,4 +161,143 @@ body {
 .btn__green {
   background-color: green;
   color: white;
+
+
+.consultation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  background: #fff;
+  margin-top: 224px;
+}
+
+.consultation__content {
+  max-width: 50%;
+}
+
+.consultation__content h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.consultation__content p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-green {
+  background: #2ea44f;
+  color: #fff;
+}
+
+.btn-green:hover {
+  background: #228b3f;
+}
+
+.btn-outline {
+  border: 2px solid #000;
+  color: #000;
+}
+
+.btn-outline:hover {
+  background: #000;
+  color: #fff;
+}
+
+.consultation__image {
+  max-width: 50%;
+}
+
+.consultation__image img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.contacts {
+  padding: 50px 20px;
+  margin-top: 184px;
+}
+
+.contacts__subtitle {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contacts__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.contacts__description {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contacts__grid {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  max-width: 300px;
+  text-align: center;
+}
+
+.contact-item img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.contact-item h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-item p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-item a {
+  font-size: 16px;
+  color: #2ea44f;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+.footer {
+  background-color: #333;
+  width: 100%;
+  min-height: 100px;
+
 }
