@@ -13,6 +13,42 @@
     <div class="navbar">
       <div class="nav__logo"><img src="svg/logo_nav.svg" alt="" /></div>
       <nav class="nav">
+
+        <a href="#" class="nav__link">Главная страница</a>
+        <a href="#" class="nav__link">Консультироваться</a>
+        <a href="#" class="nav__link">Контакты нас</a>
+        
+      </nav>
+      <div class="nav__sing" id="navSing">
+        <button class="nav__singIn btn__green" id="signInButton">Вход</button>
+        <button class="nav__singup btn-hover" id="signupButton">Регистрация</button>
+      </div>
+    
+      <div id="modalSignIn" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeSignIn">&times;</span>
+          <h3>Вход</h3>
+          <p>Введите ваши данные:</p>
+          <input type="text" placeholder="Логин" id="signInEmail"><br><br>
+          <input type="password" placeholder="Пароль" id="signInPassword"><br><br>
+          <button class="btn" id="signInSubmit">Отправить</button>
+        </div>
+      </div>
+    
+      <div id="modalSignUp" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeSignUp">&times;</span>
+          <h3>Регистрация</h3>
+          <p>Введите ваши данные:</p>
+          <input type="email" placeholder="Email" id="signUpEmail"><br><br>
+          <input type="password" placeholder="Пароль" id="signUpPassword"><br><br>
+          <button class="btn" id="signUpSubmit">Зарегистрироваться</button>
+        </div>
+      </div>
+    
+    
+   
+
         <a href="" class="nav__link">Главная страница</a>
         <a href="consultation.htm" class="nav__link">Консультироваться</a>
         <a href="#section" class="nav__link">Контакты нас</a>
@@ -36,6 +72,7 @@
         </div>
 
      
+
 
       </div>
       <button class="hamburger hamburger--collapse" type="button">
@@ -355,9 +392,17 @@
 
         <div class="anchor__links"></div>
       </div>
-      <div class="cooke"></div>
+      <div class="cooke">
+        <p>© 2024 Relume. Все права защищены.</p>
+        <div class="rigite">
+         <a href="#">Политика конфиденциальности</a>
+         <a href="#">Условия обслуживания</a>
+         <a href="#">Настройки файлов cookie</a>
+        </div>
+      </div>
     </div>
   </footer>
+  <script type="module" src="src/app.js" defer></script>
   <script src="./js/main.js"></script>
   <script src="./js/burger.js"></script>
 
