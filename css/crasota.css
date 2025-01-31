@@ -161,7 +161,7 @@ body {
 .btn__green {
   background-color: green;
   color: white;
-
+}
 
 .consultation {
   display: flex;
@@ -294,10 +294,4 @@ body {
 
 .contact-item a:hover {
   text-decoration: underline;
-}
-.footer {
-  background-color: #333;
-  width: 100%;
-  min-height: 100px;
-
 }
